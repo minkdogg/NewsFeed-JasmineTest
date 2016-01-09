@@ -222,7 +222,7 @@ $(function() {
    /* Menu Item Links: This suite checks to make sure the event listener for the menu
     * has been created (click event). I wanted to try and use a "spy" in Jasmine and 
     * couldn't come up with a more creative way to use one other than check if the 
-    * click event handler was created.
+    * click event listener was created.
     */
     describe('Menu Item Links', function() {
 
