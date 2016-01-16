@@ -166,7 +166,7 @@ $(function() {
     })
     
     // This is what I really wanted to check and it just wasn't working for me even
-       even with significant and great  help from my reviewer.
+       even with significant help from my reviewer.
         describe('Menu Item Links', function(){
         it('event listener has been created', function(){
             spyOn($.fn,'on')
