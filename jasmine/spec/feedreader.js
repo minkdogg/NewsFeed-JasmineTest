@@ -136,7 +136,7 @@ $(function() {
              */
             $.each(entryLinks,function(){
             	var entryLinksHref = $(this).attr('href');
-            	expect(entryLinksHref).toBeDefined;
+            	expect(entryLinksHref).toBeDefined();
             })
         });
     });
